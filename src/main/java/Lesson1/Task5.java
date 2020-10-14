@@ -11,8 +11,7 @@ public class Task5 {
         int[] ZO = {1, 1, 0, 0, 1, 0, 1, 1, 0, 0};
 
         for (int i = 0; i < ZO.length; i++){
-            if (ZO[i] == 1) ZO[i] = 0;
-            else ZO[i] = 1;
+            ZO[i] = ZO[i] == 1 ? 0 : 1;
         }
         System.out.println(Arrays.toString(ZO));
     }

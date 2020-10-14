@@ -21,11 +21,10 @@ public class Task11 {
             leftSum += i;
             rightSum -= i;
             if (leftSum == rightSum){
-                result = true;
-                System.out.println(result);
+                result = true;;
                 break;
             }
         }
-        if (result == false) System.out.println(result);
+        System.out.println(result);
     }
 }

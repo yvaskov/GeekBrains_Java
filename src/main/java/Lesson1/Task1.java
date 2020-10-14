@@ -6,9 +6,11 @@ package Lesson1;
 
 public class Task1 {
     public static void main(String[] args) {
-        int a = 5;
-        int b = 6;
+        sumInRange(5,6);
+    }
+
+    public static boolean sumInRange(int a, int b){
         int c = a + b;
-        System.out.println(c >= 10 & c <= 20);
+        return c >= 10 && c <= 20;
     }
 }

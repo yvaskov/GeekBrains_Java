@@ -20,8 +20,12 @@ public class Task9 {
         int min = nums[0];
 
         for (int i:nums) {
-            if (i < min) min = i;
-            if (i > max) max = i;
+            if (i < min) {
+                min = i;
+            }
+            if (i > max) {
+                max = i;
+            }
         }
         System.out.println("Минимальное значение: "+ min);
         System.out.println("Максимальное значение: "+ max);

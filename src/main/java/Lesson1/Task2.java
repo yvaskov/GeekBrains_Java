@@ -7,7 +7,10 @@ package Lesson1;
 public class Task2 {
     public static void main(String[] args) {
         int a = -3;
-        if (a >= 0) System.out.println("Положительное число");
-        else System.out.println("Отрицательное число");
+        if (a >= 0) {
+            System.out.println("Положительное число");
+        } else {
+            System.out.println("Отрицательное число");
+        }
     }
 }
