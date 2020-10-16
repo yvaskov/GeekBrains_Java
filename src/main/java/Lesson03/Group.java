@@ -17,7 +17,7 @@ public class Group {
     }
 
     public void addEmployee(Employee newEmp) {
-        if (index >= group.length) {
+        if (index + 1 >= group.length) {
             System.out.println("Группа заполнена, невозможно добавить еще одного сотрудника");
             return;
         }
